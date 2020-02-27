@@ -1,0 +1,1 @@
+awk -F " "  '{sum += $3} END {print sum}' Prob_dist--familyname_0.dat
